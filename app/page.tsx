@@ -291,14 +291,14 @@ export default function Site() {
       </section>
 
       <footer className="py-10 border-t border-black/5">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-sm">© {new Date().getFullYear()} OmniBeat AI • Connecticut</div>
-          <div className="text-sm flex items-center gap-4">
-            <a href="#faqs" className="hover:opacity-80">Privacy</a>
-            <a href="#faqs" className="hover:opacity-80">Terms</a>
-          </div>
-        </div>
-      </footer>
+  <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div className="text-sm">© {new Date().getFullYear()} OmniBeat AI • Connecticut</div>
+    <div className="text-sm flex items-center gap-4">
+      <a href="/privacy" className="hover:opacity-80">Privacy</a>
+      <a href="/terms" className="hover:opacity-80">Terms</a>
+    </div>
+  </div>
+</footer>
     </div>
   )
 }
